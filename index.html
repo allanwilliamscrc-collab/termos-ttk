@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Filmes e Séries</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(135deg, #0f172a, #111827);
+      color: white;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 30px;
+    }
+
+    .container {
+      max-width: 900px;
+      width: 100%;
+      text-align: center;
+      background: rgba(255,255,255,0.05);
+      border: 1px solid rgba(255,255,255,0.1);
+      border-radius: 24px;
+      padding: 50px 30px;
+      backdrop-filter: blur(10px);
+      box-shadow: 0 20px 60px rgba(0,0,0,0.4);
+    }
+
+    .logo {
+      width: 320px;
+      max-width: 100%;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      font-size: 48px;
+      margin-bottom: 20px;
+      background: linear-gradient(90deg, #ff00aa, #00d4ff);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+
+    p {
+      font-size: 18px;
+      line-height: 1.8;
+      color: #d1d5db;
+      margin-bottom: 20px;
+    }
+
+    .badge {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 12px 24px;
+      border-radius: 999px;
+      background: linear-gradient(90deg, #ff0080, #00c6ff);
+      color: white;
+      font-weight: bold;
+      font-size: 14px;
+      letter-spacing: 1px;
+    }
+
+    .links {
+      margin-top: 40px;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+
+    .links a {
+      text-decoration: none;
+      color: white;
+      padding: 14px 24px;
+      border-radius: 12px;
+      background: rgba(255,255,255,0.08);
+      transition: 0.3s;
+      border: 1px solid rgba(255,255,255,0.08);
+    }
+
+    .links a:hover {
+      background: rgba(255,255,255,0.15);
+      transform: translateY(-2px);
+    }
+
+    footer {
+      margin-top: 50px;
+      color: #9ca3af;
+      font-size: 14px;
+    }
+
+    @media (max-width: 768px) {
+      h1 {
+        font-size: 34px;
+      }
+
+      p {
+        font-size: 16px;
+      }
+
+      .container {
+        padding: 40px 20px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <img
+      src="socialbu-resized-1024x1024.png"
+      alt="Filmes e Séries"
+      class="logo"
+    />
+
+    <h1>Filmes e Séries</h1>
+
+    <p>
+      Automated TikTok content publishing platform focused on
+      movies, TV shows, entertainment clips, and short-form videos.
+    </p>
+
+    <p>
+      This application is used for managing and automating
+      authorized content publishing workflows through TikTok APIs.
+    </p>
+
+    <div class="badge">
+      TikTok Automation Platform
+    </div>
+
+    <div class="links">
+      <a href="privacy.html">
+        Privacy Policy
+      </a>
+
+      <a href="terms.html">
+        Terms of Service
+      </a>
+    </div>
+
+    <footer>
+      © 2026 Filmes e Séries. All rights reserved.
+    </footer>
+
+  </div>
+
+</body>
+</html>
